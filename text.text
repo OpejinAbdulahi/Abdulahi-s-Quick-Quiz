@@ -1,0 +1,31 @@
+question one 
+
+
+const   Questions = [
+    {
+        "Question": Who invented Aeroplane?;
+        "Options":[ Samson and Samuel Hopkin's, Peter and Samuel Flyson's ,Wright Brothers, Benjamie and Hopkin Brad];
+        "Answer": 3
+    },
+    {
+        "Question": which name does Shark-Child called;
+        "Options":[sharklin, little-shark, shark-lil,];
+        "Answer": 4
+    },
+    {
+        "Question": Who invented television;
+        "Options":[green white green, green green white, white green white, green blue white];
+        "Answer": 2
+    },
+    {
+        "Question": Who invented Computer?;
+        "Options":[green white green, green green white, white green white, green blue white];
+        "Answer": 2
+    },
+    {
+        "Question": Who invented Python Programming Language?;
+        "Options":[green white green, green green white, white green white, green blue white];
+        "Answer": 1
+    }
+]
+

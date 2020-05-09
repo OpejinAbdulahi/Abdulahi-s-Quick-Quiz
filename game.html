@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="this is Opejin Abdulahi quick quiz app">
+	<meta name="author" content="Opejin Abdulahi">
+	<meta  name="keywords" content="Quick Quiz App">
+    <title>Quick Game | OpejinAbdulahi</title>
+    <link rel="stylesheet" href="css2/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Karla&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="HomePage" id="HomePage">
+        <div class="flow">
+            <a href="index.html"><button class="butt" id="butt">Back to HomePage</button>
+            </a>
+        </div>    
+    </div>
+    
+    <div class="container" id="container">
+        <div class="question-count" id="question-count">
+            <h3>Question<span class="question-count-value"> </span> of <span class="total-question"></span></h3>
+        </div>
+        <div class="question" id="question">
+    
+        </div>
+        <div class="don">
+            <div class="alpha">
+                <div class="alpha1">A</div>
+                <div class="alpha1">B</div>
+                <div class="alpha1">C</div>
+                <div class="alpha1">D</div>
+            </div>
+            <div class="options">
+                <div class="option1" id="0" onclick="check(this)"></div>
+                <div class="option2" id="1" onclick="check(this)"></div>
+                <div class="option3" id="2" onclick="check(this)"></div>
+                <div class="option4" id="3" onclick="check(this)"></div>
+            </div>
+        </div>
+
+        <div class="button" id="button">
+            <button class="btn" id="btn" type="button" onclick="next()">Next</button>
+        </div>
+        <div class="answers-tracker" id="answers-tracker">
+
+        </div>
+    </div>
+    <div class="quiz-over">
+        <div class="box">
+            <h1>
+            Nice Attempt!<br>
+            You got <span class="correct-answers"></span> out of <span class="total-question2"></span> questions right!!!<br>
+            Which is <span class="percentage"></span>
+            </h1>
+            <button type="button" onclick="tryAgain()">Try Again</button> 
+        </div>
+    </div>
+
+<script defer src="js/script.js"></script>
+</body>
+</html>
